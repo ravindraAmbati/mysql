@@ -40,10 +40,12 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/sqlscripts/useDB.sql" connection-id="6db4b74b-03f2-4dfd-9037-7df47e1eefbc" session-id="MAIN" current-schema="mysql" />
-    <mapping file-url="file://$PROJECT_DIR$/sqlscripts/showDB.sql" connection-id="6db4b74b-03f2-4dfd-9037-7df47e1eefbc" session-id="MAIN" current-schema="learnsql" />
-    <mapping file-url="file://$PROJECT_DIR$/sqlscripts/dropDB.sql" connection-id="6db4b74b-03f2-4dfd-9037-7df47e1eefbc" session-id="MAIN" current-schema="mysql" />
-    <mapping file-url="file://$PROJECT_DIR$/sqlscripts/createDB.sql" connection-id="6db4b74b-03f2-4dfd-9037-7df47e1eefbc" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/sqlscripts/table/showTable.sql" connection-id="6db4b74b-03f2-4dfd-9037-7df47e1eefbc" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/sqlscripts/table/createTable.sql" connection-id="6db4b74b-03f2-4dfd-9037-7df47e1eefbc" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/sqlscripts/db/dropDB.sql" connection-id="6db4b74b-03f2-4dfd-9037-7df47e1eefbc" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/sqlscripts/db/createDB.sql" connection-id="6db4b74b-03f2-4dfd-9037-7df47e1eefbc" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/sqlscripts/db/useDB.sql" connection-id="6db4b74b-03f2-4dfd-9037-7df47e1eefbc" session-id="MAIN" current-schema="mysql" />
+    <mapping file-url="file://$PROJECT_DIR$/sqlscripts/db/showDB.sql" connection-id="6db4b74b-03f2-4dfd-9037-7df47e1eefbc" session-id="MAIN" current-schema="learnsql" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />
