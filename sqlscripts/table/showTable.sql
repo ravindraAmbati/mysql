@@ -1,0 +1,1 @@
+show learnsql.tables;
