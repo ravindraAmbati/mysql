@@ -5,6 +5,10 @@ learn mysql
 <p>Engine is always on table level, we can specify different engines for different tables.</p>
 <table>
     <tr>
+        <th>File Name</th>
+        <th>File Path</th>
+    </tr>
+    <tr>
         <td>mysql profiles path</td>
         <td>C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysql.profiles\Windows_(MySQL_8.0_Installer_Package).xml</td>
     </tr>
