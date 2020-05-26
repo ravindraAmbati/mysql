@@ -20,4 +20,6 @@ learn mysql
         <td>Data storage path</td>
         <td>%ProgramData%\MySQL\MySQL Server 8.0\Data</td>
     </tr>
+    
+    <p><b><i>notes:</i></b>https://dev.mysql.com/doc/employee/en/employees-installation.html</p>
 </table>
