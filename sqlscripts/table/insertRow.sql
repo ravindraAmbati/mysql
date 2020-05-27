@@ -5,3 +5,7 @@ insert into users (id) values (3);
 insert into users (username) values ("iambati");
 insert into users (id,username) values (null,"ravn");
 insert into users (id,username) values (null,null);
+insert into users (id,name,email) values (1,"ravindra","ravindra@example.com");
+insert into users (id,name,email) values (2,"ambati","ambati@example.com");
+insert into users (id) values (3);
+insert into users (id) values (4);
