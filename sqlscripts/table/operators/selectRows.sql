@@ -1,3 +1,4 @@
+select * from users;
 select count(*) from users;
 select count(*) from users where age >=25;
 select count(*) from users where age <=25;
