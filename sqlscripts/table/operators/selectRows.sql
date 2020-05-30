@@ -11,3 +11,6 @@ select * from users where name like '%o%' or '%O%';
 select * from users where name not like '%o%' or '%O%';
 select * from users where name is not null;
 select * from users where age is not null;
+select * from users where age <=25 and (name not like 'A%' or 'E%' or 'I%' or 'O%' or 'U%') and name is not null;
+select * from users where age >=25 and (name not like 'A%' or 'E%' or 'I%' or 'O%' or 'U%') and name is not null;
+select * from users where (age >20 or age <40) and name is not null;
