@@ -13,7 +13,7 @@
     </tr>
     <tr>
         <td>Operators</td>
-        <td>https://dev.mysql.com/doc/refman/8.0/en/comparison-operators.html</td>
+        <td>https://dev.mysql.com/doc/refman/8.0/en/non-typed-operators.html</td>
     </tr>
 </table>
 
