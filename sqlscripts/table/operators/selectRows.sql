@@ -20,11 +20,13 @@ select * from users where age <=30 xor age <=30;
 select * from users where age <=30 xor age <=30 xor age <=30;
 select * from users where age <=30 xor age <=30 xor age <=30 xor age<=30;
 /*Select all the rows where age is greater than 20 but less than 30*/
-select * from users where age > 20 and age >30;
+select * from users where age > 20 and age <30;
 /*Select all rows where age is between 20 (inclusive) and 30 (inclusive)*/
 select * from users where age between 20 and 30;
+select * from users where age >= 20 and age <=30;
 /*Select all rows where age is between 20 (inclusive) and 30 (inclusive) and the name is not “Vicky”*/
 select * from users where age between 20 and 30 and name <> "Vicky";
+select * from users where (age >= 20 and age <=30) and not name = "Vicky";
 /*Select all rows where either the name is null or the name does not contain the letter “e”*/
 select * from users where (name is null) or (name not like '%e%');
 /*Select all rows for users ages between 30 and 40 whether the name contains either “o” or “e”*/
