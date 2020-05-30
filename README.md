@@ -23,3 +23,5 @@ learn mysql
 </table>
 <p><b><i>notes:</i></b><a href="https://dev.mysql.com/doc/employee/en/employees-installation.html">Employee Data from mysql.com</a></p>
 TestData: https://github.com/datacharmer/test_db
+<h4>Export Data MySQL</h4>
+management -> data export -> select objects to export -> export to project folder or export to self-contained file
