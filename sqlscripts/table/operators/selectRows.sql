@@ -14,3 +14,8 @@ select * from users where age is not null;
 select * from users where age <=25 and (name not like 'A%' or 'E%' or 'I%' or 'O%' or 'U%') and name is not null;
 select * from users where age >=25 and (name not like 'A%' or 'E%' or 'I%' or 'O%' or 'U%') and name is not null;
 select * from users where (age >20 or age <40) and name is not null;
+select * from users where age <=30 or age <=30;
+select * from users where age <=25 xor age <=30;
+select * from users where age <=30 xor age <=30;
+select * from users where age <=30 xor age <=30 xor age <=30;
+select * from users where age <=30 xor age <=30 xor age <=30 xor age<=30;
