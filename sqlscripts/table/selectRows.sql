@@ -34,3 +34,11 @@ select * from users where (name is null) or (name not like '%e%');
 select * from users where (age between 30 and 40) or (name like '%e%' or '%o%');
 /*Select all rows where either the name contains an “o” or the id is less than 5, but not both*/
 select * from users where name like '%o%' xor id < 5;
+select * from users order by age desc;
+select * from users order by age asc;
+select * from users order by name desc;
+select * from users order by name asc;
+select * from users order by id;
+select * from users;
+select * from users where age<=30 and age>=20 order by age;
+select * from users where age<=30 and age>=20 order by age desc, name asc;
