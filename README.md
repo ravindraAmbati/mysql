@@ -1,8 +1,24 @@
 # mysql
-learn mysql
 
-<h5>MySql Data Types</h5> https://dev.mysql.com/doc/refman/8.0/en/data-types.html
+<h1>learn mysql</h1>
+
+<table>
+    <tr>
+        <th>topic</th>
+        <th>reference</th>
+    </tr>
+    <tr>
+        <td>Data Types</td>
+        <td>https://dev.mysql.com/doc/refman/8.0/en/data-types.html</td>
+    </tr>
+    <tr>
+        <td>Operators</td>
+        <td>https://dev.mysql.com/doc/refman/8.0/en/comparison-operators.html</td>
+    </tr>
+</table>
+
 <p>Engine is always on table level, we can specify different engines for different tables.</p>
+
 <table>
     <tr>
         <th>File Name</th>
