@@ -1,0 +1,13 @@
+select count(*) from users;
+select count(*) from users where age >=25;
+select count(*) from users where age <=25;
+select * from users;
+select * from users where age >=25;
+select * from users where age <=25;
+select * from users where age between 20 and 25;
+select * from users where age <=> NULL;
+select * from users where name <=> NULL;
+select * from users where name like '%o%' or '%O%';
+select * from users where name not like '%o%' or '%O%';
+select * from users where name is not null;
+select * from users where age is not null;
